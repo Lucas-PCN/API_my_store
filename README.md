@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Adonis fullstack application
 
 This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
@@ -29,3 +30,7 @@ Run the following command to run startup migrations.
 ```js
 adonis migration:run
 ```
+=======
+# API_my_store
+API RESTful desenvolvida com Node.js e Adonis, conectada a um banco de dados MySQL.  Trata-se de um sistema que permite cadastrar usuários externos. Ao realizarem login, estes usuários podem registrar clientes, produtos e vendas.
+>>>>>>> 7f6d435df98181fde0263c075a8054419163692c
