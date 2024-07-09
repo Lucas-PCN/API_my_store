@@ -7,8 +7,8 @@ class SaleSchema extends Schema {
   up () {
     this.create('sales', (table) => {
       table.increments()
-      table.integer('client_id').unsigned().references('id').inTable('clients').onDelete('cascade')
-      table.integer('book_id').unsigned().references('id').inTable('books').onDelete('cascade')
+      table.integer('client_id').unsigned().references('id').inTable('clients').onDelete('CASCADE')
+      table.integer('book_id').unsigned().references('id').inTable('books').onDelete('CASCADE')
       table.integer('quantity').notNullable()
       table.integer('unity_price').notNullable()
       table.integer('total_price').notNullable()

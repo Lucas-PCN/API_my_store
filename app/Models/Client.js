@@ -7,8 +7,8 @@ class Client extends Model {
     return this.belongsTo('App/Models/Address');
   }
 
-  phoneNumber() {
-    return this.hasOne('App/Models/PhoneNumber');
+  phone() {
+    return this.hasOne('App/Models/Phone');
   }
 
   sales() {
